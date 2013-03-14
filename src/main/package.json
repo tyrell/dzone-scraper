@@ -1,0 +1,16 @@
+{
+  "name": "dzone-scraper",
+  "subdomain": "dzone-scraper",
+  "scripts": {
+    "start": "scraper.js"
+  },
+  "version": "0.0.2-7",
+  "engines": {
+    "node": "v0.6.x"
+  },
+  "dependencies": {
+    "node.io": "*",
+    "memory-cache": "*",
+    "express": "*"
+  }
+}
